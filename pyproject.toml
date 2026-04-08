@@ -1,2 +1,5 @@
-[project.scripts]
-server = "server.app:main"
+dependencies = [
+    "openenv-core>=0.2.0",
+    "gradio",
+    "pydantic",
+]
